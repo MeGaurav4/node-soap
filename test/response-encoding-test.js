@@ -75,7 +75,7 @@ describe('Preserve data encoding from endpoint response', function () {
       {
         endpoint: url,
         disableCache: true, // disable wsdl cache, otherwise 'mocha test/client-response-options-test.js test/response-preserve-whitespace-test.js' will fail.
-        parseResponseAttachments: true,
+        parseReponseAttachments: true,
       },
       function (err, client) {
         if (err) {
